@@ -2,9 +2,9 @@
 #without an file extension
 
 FROM pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime
-WORKDIR /main2
+WORKDIR /main
 
-COPY . /main2
+COPY . /main
 
 # RUN pip install --trusted-host pypi.python.org -r requirement.txt
 # RUN unzip pems-bay.zip
